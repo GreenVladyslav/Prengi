@@ -1,0 +1,48 @@
+.promo {
+    background: url('../img/bg/logo_bg.jpg') center center/cover no-repeat;
+    min-height: 700px;
+    &__logo {
+        margin-top: 35px;
+    }
+    &__title {
+        margin-top: 130px;
+        font-size: 42px;
+        font-weight: 900;
+        color: $white;
+        line-height: 48px;
+    }
+    &__subtitle {
+        margin-top: 30px;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        color: $white;
+    }
+    .menu {
+        margin-top: 70px;
+        &__list {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            list-style-type: none;
+            &-item {
+                font-size: 13px;
+                font-weight: 700;
+                text-transform: uppercase;
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    &:hover {
+                        color: $hover-link;
+                    }
+                }
+
+            }
+        }
+    }
+    &__phone {
+        margin-top: 55px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

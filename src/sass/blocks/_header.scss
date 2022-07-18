@@ -1,0 +1,41 @@
+.header {
+    height: 85px;
+    padding: 15px 0 15px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        position: relative;
+        &-inner {
+            margin-left: 40px;
+        }
+    }
+    &__img {
+        position: absolute;
+        top: 4px;
+        border: 1px solid #333;
+    }
+    &__country {
+        font-size: 14px;
+        font-weight: 700;
+        color: #242424;
+    }
+    &__address {
+        margin-top: 4px;
+        margin-bottom: -4px;
+        font-size: 12px;
+        font-weight: 300;
+        color: #242424;
+    }
+    &__phone {
+        font-size: 12px;
+        font-weight: 300;
+        color: #242424;
+        text-decoration: none;
+        &:hover {
+            color: $hover-link;
+        }
+    }
+}
