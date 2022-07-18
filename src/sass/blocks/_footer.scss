@@ -1,0 +1,42 @@
+.footer {
+    margin: 0 auto;
+    min-height: 500px;
+    max-width: 1920px;
+    padding: 44px 0 40px;
+    background-color: #408495;
+    &__img {
+        margin-top: 20px;
+    }
+    &__descr {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+        color: $white;
+    }
+    &__module {
+        list-style-type: none;
+        padding-left: 0;
+        cursor: pointer;
+        &-item {
+            font-size: 14px;
+            font-weight: 300;
+            color: $white;
+            line-height: 19px;
+            &:hover {
+                color: $hover-link;
+            }
+        }
+    }
+    &__copyright {
+        font-size: 13px;
+        font-weight: 300;
+        color: $white;
+        text-align: center;
+    }
+    .divider {
+        margin: 100px 0 30px 0;
+        height: 1px;
+        background-color: rgb(255, 255, 255, .4);
+        width: 100%;
+    }
+}

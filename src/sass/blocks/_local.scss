@@ -1,0 +1,54 @@
+.local {
+    // max-width: 1920px;
+    overflow: hidden;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &__cloud {
+        position: relative;
+        &-square {
+            position: absolute;
+            right: 48px;
+            top: 232px;
+            width: 167px;
+            height: 167px;
+            background-color: rgb(0, 194, 240, .3);
+        }
+        &-descr {
+            position: absolute;
+            top: 310px;
+            right: 81px;
+            max-width: 493px;
+            text-align: end;
+            color: $white;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+        }
+    }
+
+    &__hosting {
+        position: relative;
+        &-square {
+            position: absolute;
+            left: 48px;
+            top: 232px;
+            width: 167px;
+            height: 167px;
+            background-color: rgb(0, 194, 240, .3);
+        }
+        &-descr {
+            position: absolute;
+            top: 310px;
+            left: 81px;
+            max-width: 493px;
+            text-align: start;
+            color: $white;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 26px;
+        }
+    }
+}
