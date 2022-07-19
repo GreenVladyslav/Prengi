@@ -1,0 +1,68 @@
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgb(0, 0, 0, .56);
+}
+.modal {
+    padding: 20px;
+    background-color: rgb(29, 57, 57);
+    width: 360px;
+    min-height: 360px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 5px;
+    &__close {
+        font-size: 50px;
+        line-height: 20px;
+        position: absolute;
+        right: -30px;
+        top: 0;
+        color: #12afaf;
+        cursor: pointer;
+    }
+    &__subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        color: $white;
+        text-align: center;
+        line-height: 20px;
+    }
+    &__descr {
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: $white;
+        text-align: center;
+        line-height: 16px;
+    }
+}
+
+.feed-form {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    input {
+        height: 45px;
+        border-radius: 10px;
+        border: none;
+        margin-bottom: 20px;
+        padding: 0 20px;
+        background-color: $white;
+        color: #000000;
+        &::placeholder {
+            color: #333333
+        }   
+    }
+}
+
+#connect, #noconnect {
+    display: none;
+}
+
