@@ -4,8 +4,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 300px;
+        max-width: 300px;
         margin: 0 auto;
         border: 1px solid rgb(2, 138, 172, .5);
+        border-radius: 5%;
     }
 }
